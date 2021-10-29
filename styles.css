@@ -1,13 +1,84 @@
 html
 
-h1 {
-    align-items: center;
-    background-color: rgb(114, 99, 197)
+.tittle{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    font-weight: bold, 500;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    
+}
+.sub-head {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    font-weight: bold, 300;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(102, 40, 40);
+}
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
+h3 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
+p {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 10px;
+}
+
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJvpt1toEu7XnXkVWv9eLm_O9eVXBDYEsV-KZgwm2eRpnqA0MwiIV5Gkh_ktXx315bQ3k&usqp=CAU);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: auto, 100%;
+}
+
+.ferrari {
+    border-style: double;
+    border-color: rgb(128, 120, 120);
+    padding: 10px;
+    border-width: 5px;
+}
+
+.bmw { 
+border-style: double;
+border-color: rgb(128, 120, 120);
+padding: 10px;
+margin: 5px;
+border-width: 5px;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: flex-end;
+    padding-top: 20px;
+    
+}
+.flex-container2 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: flex-end;
+    padding-top: 40px;
+    
 }
